@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+
+        .form-login {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        head {
+            position: absolute;
+            width: 178px;
+            height: 36px;
+            left: 16px;
+            top: 95px;
+
+            position: absolute;
+            width: 178px;
+            height: 36px;
+            left: 16px;
+            top: 95px;
+
+            color: #000000;
+
+            text-align: center;
+        }
+
+        body {
+            font-family: 'Helvetica';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 20px;
+        }
+
+        label {
+            width: 34px;
+            height: 20px;
+
+            color: #222222;
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+
+            text-align: center;
+        }
+
+        input {
+            width: 250px;
+            height: 18px;
+
+            color: #A5A5A5;
+
+            flex: none;
+            order: 0;
+            flex-grow: 1;
+
+            box-sizing: border-box;
+
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 10px 15px;
+            gap: 10px;
+
+            width: 328px;
+            height: 38px;
+
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        .login-button {
+            box-sizing: border-box;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 8px 12px;
+            gap: 10px;
+
+            background: #0D28A6;
+            border-radius: 2px;
+
+
+            color: #FFFFFF;
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+
+            margin-top: 10px;
+        }
+
+        p {
+            font-family: 'Helvetica';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+
+            color: #000000;
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+
+            text-align: center;
+        }
+
+        a {
+            font-family: 'Helvetica';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 20px;
+
+            text-decoration-line: underline;
+
+            color: #0D28A6;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-login">
+        <form>
+            <img src="Logo.jpg" alt="Logo Login">
+
+            <h2>Sign Up</h2>
+
+            <label for="username">Name*</label><br>
+            <input type="text" id="name" name="name" placeholder="Full Name" required><br><br>
+
+            <label for="username">Email*</label><br>
+            <input type="text" id="username" name="username" placeholder="Contoh: johndee@gmail.com" required><br><br>
+            
+            <label for="password">Create Password</label><br>
+            <input type="password" id="password" name="password" placeholder="6+ karakter" required><br><br>
+            
+            <input type="submit" value="Sign In" class="login-button"><br>
+
+            <p>Already have an account? <a href="SignIn.html">Sign Up for free</a></p>
+        </form>
+    </div>
+</body>
+</html>
